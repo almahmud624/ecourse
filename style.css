@@ -18,3 +18,17 @@
 .card-body {
   width: 77.77%;
 }
+.accordion-item .collapsed {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.accordion-button:not(.collapsed) {
+  color: #000;
+  background-color: #e9f5fc;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.accordion-button:focus {
+  border-color: #ccc;
+  box-shadow: none;
+}
