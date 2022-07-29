@@ -32,3 +32,14 @@
   border-color: #ccc;
   box-shadow: none;
 }
+.social-menu a {
+  height: 35px;
+  width: 35px;
+  background-color: #333;
+}
+.social-menu a i {
+  transition: all 0.5s;
+}
+.social-menu a:hover i {
+  color: skyblue;
+}
