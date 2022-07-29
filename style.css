@@ -4,6 +4,26 @@
 body {
   font-family: "Nunito", sans-serif;
 }
+.btn-primary {
+  background-color: #207398 !important;
+  border-color: #207398;
+}
+.btn-primary:hover {
+  border-color: #1c6181;
+  background-color: #1c6181 !important;
+}
+.btn-outline-primary {
+  border-color: #207398;
+  color: #207398;
+}
+.btn-outline-primary:hover {
+  background-color: #207398;
+  border-color: #207398;
+  color: #fff;
+}
+.btn-light {
+  color: #207398 !important;
+}
 .carousel-caption {
   top: 50%;
   transform: translate(-50%, -50%);
@@ -17,6 +37,12 @@ body {
 }
 .card-body {
   width: 77.77%;
+}
+.course-price {
+  color: #207398;
+}
+#join {
+  background-color: #207398;
 }
 .accordion-item .collapsed {
   border: 1px solid #ccc;
